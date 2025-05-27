@@ -12,7 +12,7 @@ export function test_list(list: List<number>): void {
     expect(list.remove(9)).toEqual(undefined);
     expect(list.removeAt(0)).toEqual(5);
     expect(list.removeAt(0)).toEqual(11);
-    expect(list.length).toEqual(0);
+    expect(list.length).toEqual(0); 
 
     list.prepend(5);
     list.prepend(7);
